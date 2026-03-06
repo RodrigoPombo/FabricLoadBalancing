@@ -1,0 +1,56 @@
+{
+  "properties": {
+    "activities": [
+      {
+        "type": "TridentNotebook",
+        "typeProperties": {
+          "notebookId": "5f92a335-c793-85ac-4dd3-abc11f54f1b9",
+          "workspaceId": "00000000-0000-0000-0000-000000000000",
+          "parameters": {
+            "clusterURI": {
+              "value": "https://trd-7mb79sdg0xpkhbt4uc.z0.kusto.fabric.microsoft.com",
+              "type": "string"
+            },
+            "databaseName": {
+              "value": "CapacityEvents",
+              "type": "string"
+            },
+            "reportIDs": {
+              "value": "d4f8f246-5246-4e25-b415-f85bd76221b1",
+              "type": "string"
+            },
+            "WSName": {
+              "value": "",
+              "type": "string"
+            },
+            "CapacityIdToDeploy": {
+              "value": "",
+              "type": "string"
+            },
+            "TargetWorkspace": {
+              "value": "edccd36a-eef3-4ef8-b90f-6a80afeb54d2",
+              "type": "string"
+            },
+            "CUusedPercentThreshold": {
+              "value": "0.8",
+              "type": "float"
+            },
+            "RecoveryThreshold": {
+              "value": "0.7",
+              "type": "float"
+            }
+          }
+        },
+        "policy": {
+          "timeout": "0.12:00:00",
+          "retry": 0,
+          "retryIntervalInSeconds": 30,
+          "secureInput": false,
+          "secureOutput": false
+        },
+        "name": "Notebook1",
+        "dependsOn": []
+      }
+    ]
+  }
+}

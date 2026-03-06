@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Notebook",
+    "displayName": "LoadBalancing_Notebook"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "5f92a335-c793-85ac-4dd3-abc11f54f1b9"
+  }
+}

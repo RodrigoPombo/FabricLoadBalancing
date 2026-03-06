@@ -1,0 +1,30 @@
+[   
+    {
+            "name": "environmentOne.Environment",
+            "id": "0e0d9a3f-f509-a27b-45c3-82d0d34dbb56",
+            "folder": "Artifacts"
+    },
+    {
+            "name": "Logs.Lakehouse",
+            "method": "NOIMPORT",
+            "id": "8a28ed26-1929-46f0-bc9e-b4a1c06fdf7d",
+            "folder": "Artifacts"
+    },
+    {
+            "name": "LoadBalancing_Notebook.Notebook",
+            "id": "1f54f1b9-abc1-4dd3-85ac-c7935f92a335",
+            "folder": "Artifacts"
+    },
+    {
+            "name": "LoadBalancingPipeline.DataPipeline",
+            "id": "4668de96-0c37-88e9-4b5a-e14586d12602",
+            "folder": "Artifacts",
+            "activities": [
+            {
+                "name": "Notebook1",
+                "type": "TridentNotebook",
+                "itemName": "LoadBalancing_Notebook.Notebook"
+            }
+        ]
+    }
+]
